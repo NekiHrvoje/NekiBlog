@@ -28,12 +28,10 @@ const Main = (props: IMainProps) => (
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/about/">
-                <a>About</a>
-              </Link>
+            <a href="https://nekihrvoje.github.io">About</a>
             </li>
             <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">GitHub</a>
+              <a href="https://github.com/NekiHrvoje">GitHub</a>
             </li>
           </Navbar>
         </div>
@@ -42,15 +40,6 @@ const Main = (props: IMainProps) => (
       <div className="text-xl py-5">{props.children}</div>
 
       <div className="border-t border-gray-300 text-center py-8">
-        Made with
-        {' '}
-        <span role="img" aria-label="Love">
-          ♥
-        </span>
-        {' '}
-        by
-        {' '}
-        <a href="https://creativedesignsguru.com">CreativeDesignsGuru</a>
       </div>
     </div>
   </div>
