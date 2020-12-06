@@ -13,9 +13,10 @@ To remedy that we need to assign agent none to that part of the pipeline,
 so we don't allocate any resources.
 
 We can do that in a few ways:
-  1\. expert way - by changing agents in pipeline and stashing/unstashing files
-  2\. right way - by using nodes and killing agents
-  3\. retarded way - by using completely separate  pipeline running on agent none
+
+  1\. expert way - by changing agents in pipeline and stashing/unstashing files\
+  2\. right way - by using nodes and killing agents\
+  3\. retarded way - by using completely separate  pipeline running on agent none\
   4\. lazy way - by using nested steps
 
 Being lazy here is the number four.
